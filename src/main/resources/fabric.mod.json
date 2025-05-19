@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "faterecipes",
+	"version": "${version}",
+	"name": "FateRecipes",
+	"description": "Mod for Cobblemon, add recipes for Blaze Rod and Bottlecaps, make Tim's Mod Unimplemented Items mod",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/faterecipes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.fatekkl.faterecipes.FateRecipes"
+		],
+		"fabric-datagen": [
+			"com.fatekkl.faterecipes.FateRecipesDataGenerator"
+		],
+		"client": [
+			"com.fatekkl.faterecipes.FateRecipesClient"
+		]
+	},
+	"mixins": [
+		"faterecipes.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.12",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

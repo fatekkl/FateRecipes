@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": "10",
+  "experience": 0.2,
+  "group":"sticks",
+  "ingredient": {
+    "item": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:blaze_rod"
+  }
+}
