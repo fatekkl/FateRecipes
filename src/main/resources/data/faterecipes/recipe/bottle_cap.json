@@ -11,10 +11,12 @@
       "item": "minecraft:iron_ingot"
     },
     "b": {
-      "item": "minecraft:experience_bottle"
+      "item": "minecraft:blaze_powder"
     }
   },
   "result": {
-    "item": "unimplemented_items:bottle_cap"
+    "id": "unimplemented_items:bottle_cap"
   }
 }
+
+
