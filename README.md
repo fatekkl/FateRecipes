@@ -1,7 +1,3 @@
-Certainly! Here's the `README.md` translated into clear and professional English:
-
----
-
 ### 📦 **Datapack: Custom Recipes – Blaze Rod & Bottle Cap**
 
 This datapack adds new **crafting** and **smelting** recipes to make items like the `Blaze Rod` and `Bottle Cap` more accessible, using alternative or easier-to-obtain materials.
